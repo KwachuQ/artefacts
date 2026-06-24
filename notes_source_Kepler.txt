@@ -1,0 +1,10 @@
+Kepler = insurance group, 50 critical apps need to move from AWS + some on-prem into Azure, hard stop in 18 months because AWS contract expires and can’t be renewed.
+
+Program already 6 months in; only 8/50 apps migrated, mostly easy Tier 3 stuff, so 42 still left and recent Tier 2 waves had post-go-live incidents.
+
+Constraints are nasty: zero downtime for claims during business hours, 99.95 SLA on Policy Admin + Claims, SOX audit trail needed, plus GDPR / HIPAA / LGPD / APPI across regions.
+
+Delivery looks shaky: completed waves are ~40% over budget on average, 6 of 8 migrations had incidents, mostly from missing monitoring/alerting in Azure.
+
+Big messy risk area is ownership/discovery, 11 apps lost original owners, some have no docs, app-owner questionnaire response rate only 60%, and one weird app hits 7 SMTP servers including one in Russia.
+
