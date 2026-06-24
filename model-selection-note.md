@@ -4,6 +4,7 @@
 **Author:** Lukasz — Engineering
 **Project:** Kepler Insurance (Case B)
 **Task:** Transform rough notes into a structured requirements document
+**Committed location:**  "<https://github.com/KwachuQ/artefacts>"
 
 ---
 
